@@ -1,0 +1,88 @@
+#bloc_page
+{
+	width:50%;
+	margin:auto;
+	
+}
+.menu
+{
+
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	margin:20px 120px;
+	
+}
+
+header
+{
+
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	margin:20px 110px;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    /* display: inline-block; */
+    font-style: normal;
+    /* font-variant: normal; */
+    text-rendering: auto;
+    line-height: 1;
+}
+
+ul
+{
+	list-style:none;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	padding-left:0px;
+	color:#FFA500;
+	
+}
+.mention
+{
+	padding:8px 0px;
+	margin-left:-40px;
+
+	
+}
+.contact
+{
+	padding: 8px 0px;
+	margin-right: -30px;
+
+	
+}
+footer
+{
+
+	background:  #2E8B57;
+	margin:20px 110px;
+}
+
+h1{
+	text-align:center;
+	margin-top:2px;
+	padding:4px 0px;
+	background:#2E8B57;
+	color:#FFA500;
+	 &:hover {
+        transform: scale(1.15);
+    }
+}
+.fa-search
+{
+
+	margin-top:-24px;
+	background:#F9FBE7;
+	padding: 4px 0px 4px 2px; 
+}
+a
+{
+	text-decoration:none;
+	color:#FFA500;
+	
+}
